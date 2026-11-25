@@ -16,7 +16,7 @@
   if (here.charAt(here.length - 1) !== "/") here += "/";
 
   var css =
-    "#bc-nav{all:initial;display:block;position:relative;z-index:60;background:#1f2324;color:#f3eeea;" +
+    "#bc-nav{all:initial;display:block;position:relative;z-index:60;background:#252928;color:#f3eeea;" +
     "font:500 14px/1 system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;border-bottom:1px solid #000}" +
     "#bc-nav *{box-sizing:border-box;font:inherit;color:inherit;margin:0}" +
     "#bc-nav .bcn-in{max-width:1500px;margin:0 auto;padding:0 16px;height:46px;display:flex;align-items:center;gap:20px}" +
@@ -28,12 +28,12 @@
     "#bc-nav .bcn-links a:hover{color:#fff}" +
     "#bc-nav .bcn-links a[aria-current=page]{color:#fff;border-bottom-color:#c08a5f}" +
     "#bc-nav a:focus-visible,#bc-nav button:focus-visible{outline:2px solid #c08a5f;outline-offset:2px;border-radius:3px}" +
-    "#bc-nav .bcn-btn{display:none;margin-left:auto;background:transparent;border:1px solid #4a4f50;border-radius:6px;padding:7px 12px;cursor:pointer;align-items:center;gap:8px}" +
+    "#bc-nav .bcn-btn{display:none;margin-left:auto;background:transparent;border:1px solid #4a4f4e;border-radius:6px;padding:7px 12px;cursor:pointer;align-items:center;gap:8px}" +
     "#bc-nav .bcn-btn svg{width:16px;height:16px;stroke:currentColor}" +
-    "#bc-nav .bcn-menu{display:none;position:absolute;top:100%;left:0;right:0;background:#1f2324;border-bottom:1px solid #000;padding:6px 8px 10px;box-shadow:0 14px 30px rgba(0,0,0,.35)}" +
+    "#bc-nav .bcn-menu{display:none;position:absolute;top:100%;left:0;right:0;background:#252928;border-bottom:1px solid #000;padding:6px 8px 10px;box-shadow:0 14px 30px rgba(0,0,0,.35)}" +
     "#bc-nav .bcn-menu a{display:block;padding:12px 10px;border-radius:6px;color:#c9c3be}" +
-    "#bc-nav .bcn-menu a:hover{background:#2c3132;color:#fff}" +
-    "#bc-nav .bcn-menu a[aria-current=page]{color:#fff;box-shadow:inset 3px 0 0 #c08a5f;background:#2a2e2f}" +
+    "#bc-nav .bcn-menu a:hover{background:#2f3433;color:#fff}" +
+    "#bc-nav .bcn-menu a[aria-current=page]{color:#fff;box-shadow:inset 3px 0 0 #c08a5f;background:#2c302f}" +
     "#bc-nav.bcn-open .bcn-menu{display:block}" +
     "@media (max-width:720px){#bc-nav .bcn-links{display:none}#bc-nav .bcn-btn{display:inline-flex}}" +
     "@media print{#bc-nav{display:none!important}}";
