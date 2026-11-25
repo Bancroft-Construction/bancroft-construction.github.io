@@ -11,6 +11,7 @@ The root site for Bancroft Construction's tools: https://bancroft-construction.g
   `/jobsite-schedule/`, `/bd-directory/`, `/staffing-planner/`.
 - Every tool signs in with the Jobsite Schedule's shared Supabase login and stores the session in
   `sessionStorage` under `jsb-auth`, so one sign-in covers all tools in that tab. A new tool should do
-  the same. The name each person types is shared under `localStorage` `jsb.myName`.
+  the same. Exception: the BD directory has its own login and session key (`bd-auth`) so only BD
+  people can open it. The name each person types is shared under `localStorage` `jsb.myName`.
 - `nav.js` stays plain ES5 with all styles scoped under `#bc-nav`, so it can't clash with a tool's own
   CSS or scripts. It hides itself when printing.
